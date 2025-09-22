@@ -1,0 +1,107 @@
+{
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_northeurope": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_northeurope",
+		"resource_type": "azurerm_network_watcher",
+		"resource_name": "res-0"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg-aktyvas-lang/providers/Microsoft.CognitiveServices/accounts/ai-aktyvas5797ai312811327532": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg-aktyvas-lang/providers/Microsoft.CognitiveServices/accounts/ai-aktyvas5797ai312811327532",
+		"resource_type": "azurerm_ai_services",
+		"resource_name": "res-1"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg-aktyvas-lang/providers/Microsoft.MachineLearningServices/workspaces/aktyvas-5797_ai": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg-aktyvas-lang/providers/Microsoft.MachineLearningServices/workspaces/aktyvas-5797_ai",
+		"resource_type": "azurerm_ai_foundry",
+		"resource_name": "res-3"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg-aktyvas-lang/providers/Microsoft.MachineLearningServices/workspaces/aktyvas-lang": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg-aktyvas-lang/providers/Microsoft.MachineLearningServices/workspaces/aktyvas-lang",
+		"resource_type": "azurerm_ai_foundry_project",
+		"resource_name": "res-4"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg-aktyvas-lang/providers/Microsoft.Storage/storageAccounts/staktyvas579312811327532": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg-aktyvas-lang/providers/Microsoft.Storage/storageAccounts/staktyvas579312811327532",
+		"resource_type": "azurerm_storage_account",
+		"resource_name": "res-5"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_adf/providers/Microsoft.DataFactory/factories/adf-integrate-service": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_adf/providers/Microsoft.DataFactory/factories/adf-integrate-service",
+		"resource_type": "azurerm_data_factory",
+		"resource_name": "res-6"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_ai/providers/Microsoft.BotService/botServices/langqna-bot6": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_ai/providers/Microsoft.BotService/botServices/langqna-bot6",
+		"resource_type": "azurerm_bot_service_azure_bot",
+		"resource_name": "res-7"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_ai/providers/Microsoft.CognitiveServices/accounts/acuradoc": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_ai/providers/Microsoft.CognitiveServices/accounts/acuradoc",
+		"resource_type": "azurerm_cognitive_account",
+		"resource_name": "res-8"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_ai/providers/Microsoft.CognitiveServices/accounts/langqnaLaivas": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_ai/providers/Microsoft.CognitiveServices/accounts/langqnaLaivas",
+		"resource_type": "azurerm_cognitive_account",
+		"resource_name": "res-9"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_ai/providers/Microsoft.ManagedIdentity/userAssignedIdentities/langqna-bot6": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_ai/providers/Microsoft.ManagedIdentity/userAssignedIdentities/langqna-bot6",
+		"resource_type": "azurerm_user_assigned_identity",
+		"resource_name": "res-10"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_ai/providers/Microsoft.Web/serverFarms/bot-win-as": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_ai/providers/Microsoft.Web/serverFarms/bot-win-as",
+		"resource_type": "azurerm_service_plan",
+		"resource_name": "res-11"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_ai/providers/Microsoft.Web/sites/langqna-bot-e747": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_ai/providers/Microsoft.Web/sites/langqna-bot-e747",
+		"resource_type": "azurerm_windows_web_app",
+		"resource_name": "res-12"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_bot/providers/Microsoft.Web/serverFarms/langqna-as": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_bot/providers/Microsoft.Web/serverFarms/langqna-as",
+		"resource_type": "azurerm_service_plan",
+		"resource_name": "res-13"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_budget/providers/microsoft.insights/actiongroups/ag1": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_budget/providers/Microsoft.Insights/actionGroups/ag1",
+		"resource_type": "azurerm_monitor_action_group",
+		"resource_name": "res-14"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_kv/providers/Microsoft.KeyVault/vaults/azurekvservice2": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_kv/providers/Microsoft.KeyVault/vaults/azurekvservice2",
+		"resource_type": "azurerm_key_vault",
+		"resource_name": "res-15"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_qna/providers/Microsoft.CognitiveServices/accounts/langqna": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_qna/providers/Microsoft.CognitiveServices/accounts/langqna",
+		"resource_type": "azurerm_cognitive_account",
+		"resource_name": "res-16"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_qna/providers/Microsoft.Search/searchServices/langqna-as67hxeqctwooiw": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_qna/providers/Microsoft.Search/searchServices/langqna-as67hxeqctwooiw",
+		"resource_type": "azurerm_search_service",
+		"resource_name": "res-17"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_sql/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id_sql": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_sql/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id_sql",
+		"resource_type": "azurerm_user_assigned_identity",
+		"resource_name": "res-18"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_sql/providers/Microsoft.Sql/servers/flex2": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_sql/providers/Microsoft.Sql/servers/flex2",
+		"resource_type": "azurerm_mssql_server",
+		"resource_name": "res-19"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_sql/providers/Microsoft.Sql/servers/flex2/databases/flex2": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_sql/providers/Microsoft.Sql/servers/flex2/databases/flex2",
+		"resource_type": "azurerm_mssql_database",
+		"resource_name": "res-20"
+	},
+	"/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_sql/providers/Microsoft.Sql/servers/flex2/databases/flexdb": {
+		"resource_id": "/subscriptions/c3b8f4b9-4b0d-44ac-a724-de32a897990e/resourceGroups/rg_sql/providers/Microsoft.Sql/servers/flex2/databases/flexdb",
+		"resource_type": "azurerm_mssql_database",
+		"resource_name": "res-21"
+	}
+}
