@@ -1,11 +1,10 @@
 terraform {
-  backend "local" {}
+  cloud {
+    organization = "AndriusOrg" # Replace with your Terraform Cloud org
 
-  required_providers {
-    azurerm = {
-      source = "hashicorp/azurerm"
-      version = "4.33.0"
-
+    workspaces {
+      name = "FlexTeraform" # Replace with your TFC workspace name
+      execution_mode = "local"  # forces local CLI execution (remote/local)
     }
   }
 }
