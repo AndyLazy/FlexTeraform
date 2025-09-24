@@ -1,3 +1,5 @@
+data "azurerm_client_config" "current" {}
+
 resource "azurerm_network_watcher" "res-0" {
   location            = "northeurope"
   name                = "NetworkWatcher_northeurope"
@@ -204,4 +206,51 @@ resource "azurerm_mssql_database" "res-21" {
   name                 = "flexdb"
   server_id            = azurerm_mssql_server.res-19.id
   storage_account_type = "Local"
+}
+
+# OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO agentic AI
+
+resource "azurerm_resource_group" "rg" {
+  name     = "rg-agent"
+  location = "eastus"
+}
+
+resource "azurerm_kubernetes_cluster" "aks" {
+  name                = "aks-agent"
+  location            = azurerm_resource_group.rg.location
+  resource_group_name = azurerm_resource_group.rg.name
+  dns_prefix          = "aksagent"
+
+  default_node_pool {
+    name       = "agentpool"
+    vm_size    = "Standard_D2s_v3"
+    node_count = 2
+  }
+
+  identity {
+    type = "SystemAssigned"
+  }
+
+  # enable OIDC Issuer (required for workload identity)
+  oidc_issuer_enabled = true
+
+}
+
+# Key Vault
+resource "azurerm_key_vault" "kv" {
+  name                        = "kv-agent-${random_id.suffix.hex}"
+  resource_group_name         = azurerm_resource_group.rg.name
+  location                    = azurerm_resource_group.rg.location
+  tenant_id                   = data.azurerm_client_config.current.tenant_id
+  sku_name                    = "standard"
+  soft_delete_retention_days  = 7
+}
+
+# ACR
+resource "azurerm_container_registry" "acr" {
+  name                = "acragent${random_id.suffix.hex}"
+  resource_group_name = azurerm_resource_group.rg.name
+  location            = azurerm_resource_group.rg.location
+  sku                 = "Basic"
+  admin_enabled       = false
 }
