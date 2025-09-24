@@ -205,14 +205,3 @@ resource "azurerm_mssql_database" "res-21" {
   server_id            = azurerm_mssql_server.res-19.id
   storage_account_type = "Local"
 }
-resource "azurerm_resource_group" "res-22" {
-  name     = "rg-terraform-example"
-  location            = "eastus"
-}
-resource "azurerm_storage_account" "res-23" {
-  name                     = "storacctexample123"
-  resource_group_name      = "rg-terraform-example"
-  location                 = "eastus"
-  account_tier             = "Standard"
-  account_replication_type = "LRS"
-}
