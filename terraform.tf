@@ -4,7 +4,7 @@ terraform {
 
     workspaces {
       name = "FlexTeraform" # Replace with your TFC workspace name
-      execution_mode = "local"  # forces local CLI execution (remote/local)
+      execution_mode = "remote"  # forces local CLI execution (remote/local)
     }
   }
 }
